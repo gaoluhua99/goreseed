@@ -1,0 +1,262 @@
+#
+# 1.【必须配置】爱语飞飞 微信通知，请访问https://iyuu.cn 用微信扫码申请
+iyuutoken: 
+# 6.【自动辅种必须配置】全局客户端设置（条目不够可以复制）
+clients:
+  -
+    isuse: true #使用是true 不使用是false
+    type: transmission #不可改动
+    host: http://127.0.0.1:9091/transmission/rpc # 警告！注意：transmission/rpc这段别动，你只需要修改 127.0.0.1:9091
+    username: 
+    password: 
+  - #暂不能使用
+    isuse: false #使用是true 不使用是false
+    type:
+    host:  # 警告！你只需要修改 127.0.0.1:9091
+    username:
+    password:
+sites:
+  -  #1
+    # name值固定，改动将无法使用
+    name: keepfrds #名字不得改动
+    #
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #2
+    name: pthome
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #3
+    name: m-team
+    ipv6: true
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #4
+    name: hdsky
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #5
+    name: tjupt
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #6
+    name: pter
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #7
+    name: hdhome
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #8
+    name: btschool
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #9
+    name: ourbits
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #10
+    name: hddolby
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #11
+    name: torrentccf
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #12
+    name: ptmsg
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #13
+    name: moecat
+    ipv6: true
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #14
+    name: ttg
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey: 
+  -  #15
+    name: nanyangpt
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey: 
+  -  #16
+    name: yingk
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #17
+    name: hdcity
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #18
+    name: nicept
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #19
+    name: 52pt
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #20
+    name: brobits
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #21
+    name: beitai
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #22
+    name: eastgame
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #23
+    name: ssd
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #24
+    name: soulvoice
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #25
+    name: chdbits
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #26
+    name: leaguehd
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #27
+    name: ptsbao
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #28 暂不可用
+    name: hdchina
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #29
+    name: hdarea
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #30
+    name: hdtime
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #31
+    name: 1ptba
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #32
+    name: hd4fans
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #33
+    name: opencd
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #34
+    name: hdbug
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #35
+    name: hdstreet
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #36
+    name: joyhd
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #37
+    name: dmhy
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #38
+    name: upxin
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #39
+    name: oshen
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #40
+    name: discfan
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #41
+    name: hdzone
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #44
+    name: hdbd
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #45
+    name: byr
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #46
+    name: skyey2
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #47
+    name: ccfbits
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey: 
+  -  #48
+    name: hdbits
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #49
+    name: ptpbd
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
+  -  #50
+    name: hd-torrents
+    cookie:
+    #passkey 如果需要自动辅种，必须配置
+    passkey:
