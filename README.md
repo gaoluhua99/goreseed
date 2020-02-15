@@ -1,5 +1,9 @@
 "# goreseed" 
 
+private tracker 辅种工具
+
+采用IYUU接口：http://api.iyuu.cn/docs.php
+
 配置文件采用yaml格式，请严格安装yaml的书写规范填写相关内容。
 
 yaml参考文档：https://www.runoob.com/w3cnote/yaml-intro.html
